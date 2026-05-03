@@ -126,8 +126,4 @@ Bhargavi Kanojia
 LinkedIn : https://www.linkedin.com/in/bhargavi-kanojia-245986280/
 GitHub: https://github.com/bhargavi1973
 
-### 📁 IMPORTANT
-Create:
 
-```bash
-mkdir assets
