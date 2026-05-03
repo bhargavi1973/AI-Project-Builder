@@ -91,6 +91,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 ### 4️⃣ Install & run Ollama
+Pro Tip - Use small models for faster execution
 Download: https://ollama.com
 ```bash
 ollama pull llama3.2:1b
