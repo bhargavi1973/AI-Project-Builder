@@ -100,3 +100,34 @@ ollama serve
 ```bash
 streamlit run ui/app.py
 ```
+
+### 🧪 Example Usage
+Input: 
+```bash
+Build a todo app using FastAPI
+```
+Output:
+- Generated backend code
+- Folder structure
+- Auto-debugged version
+- Downloadable project
+  
+### ⚠️ Limitations
+- Requires local Ollama setup
+- Performance depends on system hardware TIP - use smaller models for less configuration systems
+- Generated apps may need minor manual fixes
+
+
+## 👩‍💻 Developer
+Bhargavi Kanojia
+🎓 AI & DS Undergrad'27
+
+## 📬 Connect
+LinkedIn : https://www.linkedin.com/in/bhargavi-kanojia-245986280/
+GitHub: https://github.com/bhargavi1973
+
+### 📁 IMPORTANT
+Create:
+
+```bash
+mkdir assets
