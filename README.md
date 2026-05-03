@@ -118,9 +118,9 @@ Output:
 - Generated apps may need minor manual fixes
 
 
-## 👩‍💻 Developer
-Bhargavi Kanojia
-🎓 AI & DS Undergrad'27
+## 👩‍💻 Developer & Author
+- Bhargavi Kanojia
+- 🎓 AI & DS Undergrad'27
 
 ## 📬 Connect
 LinkedIn : https://www.linkedin.com/in/bhargavi-kanojia-245986280/
