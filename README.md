@@ -105,7 +105,7 @@ streamlit run ui/app.py
 ### 🧪 Example Usage
 
 ## 🖥️ UI Preview
-![UI](assests/Screenshot 2026-05-04 013200.png)
+See assets folder in this repo!
 
 Input: 
 ```bash
