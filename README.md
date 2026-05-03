@@ -31,3 +31,4 @@
 ![UI](assets/ui.png)
 
 ### ⚙️ Pipeline Flow
+## Idea → Planner → Developer → Tester → Reviewer → Debugger → Final App
