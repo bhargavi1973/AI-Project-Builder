@@ -32,3 +32,71 @@
 
 ### ⚙️ Pipeline Flow
 ## Idea → Planner → Developer → Tester → Reviewer → Debugger → Final App
+
+---
+
+## 🧠 Architecture
+
+### Multi-Agent System
+
+| Agent        | Role |
+|-------------|------|
+| Planner      | Breaks idea into steps |
+| Developer    | Generates code |
+| Tester       | Finds bugs |
+| Reviewer     | Improves code |
+| Debugger     | Fixes runtime errors |
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** Streamlit  
+- **Backend:** Python  
+- **AI Framework:** LangChain  
+- **LLM:** Ollama (Local Models)  
+- **Execution Engine:** Subprocess (Node/Python runner)
+
+---
+
+## 📁 Project Structure
+AI-Project-Builder/
+│
+├── agents/ # AI agents (planner, developer, etc.)
+├── core/ # LLM configuration
+├── tools/ # File handling, execution
+├── workflows/ # Pipeline logic
+├── ui/ # Streamlit UI
+├── main.py # Entry point
+├── requirements.txt
+
+
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the repo
+
+```bash
+git clone https://github.com/your-username/AI-Project-Builder.git
+cd AI-Project-Builder
+```
+### 2️⃣ Create virtual environment
+```bash
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+```
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4️⃣ Install & run Ollama
+Download: https://ollama.com
+```bash
+ollama pull llama3.2:1b
+ollama serve
+```
+### 5️⃣ Run UI
+```bash
+streamlit run ui/app.py
+```
