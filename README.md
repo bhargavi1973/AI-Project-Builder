@@ -103,6 +103,10 @@ streamlit run ui/app.py
 ```
 
 ### 🧪 Example Usage
+
+## 🖥️ UI Preview
+![UI](assests/Screenshot 2026-05-04 013200.png)
+
 Input: 
 ```bash
 Build a todo app using FastAPI
