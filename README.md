@@ -12,23 +12,17 @@
 
 ## 📌 Overview
 
-**AI Project Builder** is an intelligent system that takes a simple app idea and automatically:
+**AI Project Builder** is an intelligent system that takes a simple app idea from user and automatically:
 
-- 🧠 Plans the architecture  
-- 💻 Generates full-stack code  
-- 📂 Creates project files  
-- 🧪 Tests and reviews code  
-- 🛠️ Debugs errors automatically  
+- 🧠 Plans the architecture  (Planner Agent)
+- 💻 Generates full-stack code  (Developer Agent)
+- 📂 Creates project files  (Developer Agent)
+- 🧪 Tests and reviews code  (Tester Agent + Reviewer Agent)
+- 🛠️ Debugs errors automatically  (Debugger Agent)
 
 👉 It simulates a **real software development team using AI agents**
 
 ---
-
-## 🎥 Demo
-
-### 🖥️ UI Preview
-
-![UI](assets/ui.png)
 
 ### ⚙️ Pipeline Flow
 ## Idea → Planner → Developer → Tester → Reviewer → Debugger → Final App
