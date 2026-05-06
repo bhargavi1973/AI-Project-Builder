@@ -45,7 +45,7 @@
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** Streamlit  
+- **Frontend:** Streamlit  (Created an interactive UI using Streamlit for project generation and downloadable outputs)
 - **Backend:** Python  
 - **AI Framework:** Integrated LangChain  (or prompt orchestration and workflow management)
 - **LLM:** Ollama (o run open-source LLMs locally for offline AI inference)  
