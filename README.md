@@ -47,22 +47,22 @@
 
 - **Frontend:** Streamlit  
 - **Backend:** Python  
-- **AI Framework:** LangChain  
-- **LLM:** Ollama (Local Models)  
+- **AI Framework:** Integrated LangChain  (or prompt orchestration and workflow management)
+- **LLM:** Ollama (o run open-source LLMs locally for offline AI inference)  
 - **Execution Engine:** Subprocess (Node/Python runner)
 
 ---
 
 ## 📁 Project Structure
 AI-Project-Builder/
-│
-├── agents/ # AI agents (planner, developer, etc.)
-├── core/ # LLM configuration
-├── tools/ # File handling, execution
-├── workflows/ # Pipeline logic
-├── ui/ # Streamlit UI
-├── main.py # Entry point
-├── requirements.txt
+- │
+- ├── agents/ # AI agents (planner, developer, etc.)
+- ├── core/ # LLM configuration
+- ├── tools/ # File handling, execution
+- ├── workflows/ # Pipeline logic
+- ├── ui/ # Streamlit UI
+- ├── main.py # Entry point
+- ├── requirements.txt
 
 
 ---
@@ -96,11 +96,10 @@ ollama serve
 streamlit run ui/app.py
 ```
 
-### 🧪 Example Usage
-
 ## 🖥️ UI Preview
 See assets folder in this repo!
 
+### 🧪 Example Usage
 Input: 
 ```bash
 Build a todo app using FastAPI
