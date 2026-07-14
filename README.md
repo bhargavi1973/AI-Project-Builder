@@ -96,6 +96,21 @@ ollama serve
 streamlit run ui/app.py
 ```
 
+## 🌐 Deploy Frontend
+
+### Option 1: Docker (recommended)
+```bash
+docker build -t ai-project-builder-frontend .
+docker run -p 8501:8501 ai-project-builder-frontend
+```
+Then open `http://localhost:8501`.
+
+### Option 2: Streamlit Cloud / container platforms
+- App entry point: `ui/app.py`
+- Python dependencies: `requirements.txt`
+- Port: `8501`
+- Streamlit runtime config: `.streamlit/config.toml`
+
 ## 🖥️ UI Preview
 See assets folder in this repo!
 
@@ -123,5 +138,4 @@ Output:
 ## 📬 Connect
 LinkedIn : https://www.linkedin.com/in/bhargavi-kanojia-245986280/
 GitHub: https://github.com/bhargavi1973
-
 
